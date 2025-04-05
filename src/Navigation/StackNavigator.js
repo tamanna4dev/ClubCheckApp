@@ -22,6 +22,9 @@ import PremiumUI from './../screen/PremiumUI';
 import DrawerNavigator from './DrawerNavigator';
 import RegisterScreen from './../screen/RegisterScreen.';
 import ClubScreen from './../screen/ClubScreen';
+import CongratulationsScreen from './../screen/CongratulationsScreen';
+import NotDoneYet from './../screen/NotDoneYet';
+import WelcomeHomeScreen from './../screen/WelcomeHomeScreen';
 
 const Stack = createStackNavigator();
 
@@ -50,6 +53,12 @@ const StackNavigator = () => {
         <Stack.Screen name="DrawerNavigator" component={DrawerNavigator} />
         <Stack.Screen name="RegisterScreen" component={RegisterScreen} />
         <Stack.Screen name="ClubScreen" component={ClubScreen} />
+        <Stack.Screen name="CongratulationsScreen" component={CongratulationsScreen} />
+        <Stack.Screen name="NotDoneYet" component={NotDoneYet} />
+        <Stack.Screen name="WelcomeHomeScreen" component={WelcomeHomeScreen} />
+        
+
+
 
       </Stack.Navigator>
     // </NavigationContainer>

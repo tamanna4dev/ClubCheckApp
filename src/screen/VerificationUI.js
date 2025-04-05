@@ -83,7 +83,7 @@ const VerificationUI = () => {
         </View>
       </TouchableOpacity>
       
-        <TouchableOpacity style={styles.verifyButton} onPress={() => navigation.navigate('DrawerNavigator')}>
+        <TouchableOpacity style={styles.verifyButton} onPress={() => navigation.navigate('CongratulationsScreen')}>
         <Text style={styles.verifyButtonText}>Submit</Text>
       </TouchableOpacity> 
       {/* LoginScreen */}
